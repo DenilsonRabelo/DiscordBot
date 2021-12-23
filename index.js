@@ -2,7 +2,7 @@
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const TOKEN = 'Seu Token aqui'
+const TOKEN = 'SEU-TOKEN-DO-BOT-DISCORD'
 
 client.on("ready", () => {
     console.log("pronto")
@@ -20,7 +20,7 @@ client.on("message", (msg) => {
     if (msg.content === '!gatinho') {
         //imagem de gatinhos
         const setings = {
-            'X-API-KEY': '000c9001-3a9e-4b8f-a48d-2c8b7f3d0913',
+            'X-API-KEY': 'TOKEN-API-AQUI',
         }
         fetch(`https://api.thecatapi.com/v1/images/search?limit=1`, setings)
             .then(response => {
