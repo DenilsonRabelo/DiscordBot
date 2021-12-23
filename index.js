@@ -2,7 +2,7 @@
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const TOKEN = 'OTIzNjM4ODkyMTU3MDk1OTM2.YcS7wA.g1T-PILZpVgI6ZTy_6bktlSMJKs'
+const TOKEN = 'Seu Token aqui'
 
 client.on("ready", () => {
     console.log("pronto")
