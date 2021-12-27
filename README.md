@@ -29,7 +29,7 @@ npm install discord.js
 
 
 ## 🔨 Instruções
-- pege usa [API Key] fazendo o  cadastro no (https://thedogapi.com/signup), logo depois sua API-KEY chegara no seu e-mail
+- pegue sua usa [API Key] fazendo o cadastro no (https://thedogapi.com/signup), logo depois sua API-KEY chegara no seu e-mail
 - Agora é preciso que você crie um bot no link (https://discordapp.com/developers/applications/me/create) e adicione ao ser servidor e salve o token do Bot que foi gerado para você
 - clone o repositorio (https://github.com/DenilsonRabelo/DiscordBot) e troque respectivamente [SEU-TOKEN-DO-BOT-DISCORD] pelo seu token gerado no passo anterios
 - Troque respectivamente [TOKEN-API-AQUI] pela API-KEY que você recebeu por email
