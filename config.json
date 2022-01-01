@@ -1,0 +1,13 @@
+[
+    {
+        "Chave-discord": "OTIzNjM4ODkyMTU3MDk1OTM2.YcS7wA.X4Yv7HzMkU5cCBMitPitTtrgywo"
+    },
+    {
+        "url-doguinho": "https://api.thedogapi.com/v1/images/search?limit=1",
+        "url-gatinho": "https://api.thecatapi.com/v1/images/search?limit=1",
+        "API-KEY-DOG-E-CAT": "000c9001-3a9e-4b8f-a48d-2c8b7f3d0913"
+    },
+    {
+        "url-curiosidade" : "http://numbersapi.com/random?json"
+    }
+]

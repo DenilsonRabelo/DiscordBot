@@ -26,6 +26,9 @@ npm install node-fetch
 ```bash
 npm install discord.js
 ```
+```bash
+npm install @vitalets/google-translate-api
+```
 
 
 ## 🔨 Instruções
