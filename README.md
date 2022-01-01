@@ -1,4 +1,4 @@
-<h1 align="center">BOT PARA DISCORD (DOGUINHO E GATINHO)</h1>
+<h1 align="center">BOT PARA DISCORD</h1>
 
 <div align="center">
 <img src="https://img.shields.io/github/issues/DenilsonRabelo/DiscordBot"/>
@@ -12,7 +12,7 @@
 </div>
 
 
-<p align="center">Bot para Discord que gera imagens de gatinhos e doguinhos e os envia no chat por comandos.</p>
+<p align="center">Bot para Discord que gera imagens de gatinhos e doguinhos e os envia no chat por comandos, além de curiosidades sobre numeros.</p>
 
 <h1 align="center">
   <img alt="Gatinho" title="Gtinho" src="https://cdn2.thecatapi.com/images/c9h.jpg" />
@@ -39,7 +39,7 @@ npm install @vitalets/google-translate-api
 - Agora basta você instalar as dependencias citadas em [Install]
 - Execute o 'node index.js' para dar inicio a aplicação
 - Agora basta você executar um dos comandos que estarão no topico comandos
-- Agora é só aproveitar os Gatinhos e Doguinhos no seu servidor
+- Agora é só aproveitar.
 
 
 ## ⚙️ Comandos
@@ -48,5 +48,11 @@ npm install @vitalets/google-translate-api
 ```
 ```bash
 !doguinho
+```
+```bash
+!curiosidade
+```
+```bash
+!comandos
 ```
 
