@@ -1,6 +1,6 @@
 [
     {
-        "Chave-discord": "seu token do discord"
+        "Chave-discord": "OTIzNjM4ODkyMTU3MDk1OTM2.YcS7wA.KPZ4XhaDfzD69iobBBdg68Heqv4"
     },
     {
         "url-doguinho": "https://api.thedogapi.com/v1/images/search?limit=1",
@@ -9,5 +9,8 @@
     },
     {
         "url-curiosidade" : "http://numbersapi.com/random?json"
+    },
+    {
+        "url-base-anime" : "https://nekos.best/api/v1/"
     }
 ]

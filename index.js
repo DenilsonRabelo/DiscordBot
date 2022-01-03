@@ -15,7 +15,7 @@ client.on("message", (msg) => {
 
     if (msg.channel.type === "dm") return
 
-    if (msg.content === "!comandos") msg.channel.send("!gatinho !doguinho !curiosidade !comandos")
+    if (msg.content === "!comandos") msg.channel.send("!gatinho !doguinho !curiosidade !anime img !anime gif !comandos")
 
 
 
@@ -60,6 +60,31 @@ client.on("message", (msg) => {
 
         .catch(err => {msg.channel.send("A curiosidade matou o gato")})
 
+    }
+
+    //Setor imagem e gifs de anime//
+    if (msg.content === "!anime img"){
+        fetch(config[3]["url-base-anime"]+"nekos")
+            .then (response => response.json())
+            .then(data => {
+                msg.channel.send(`Uma loli para ${msg.author.username}`)
+                msg.channel.send(`Criador : ` + data["artist_name"])
+                msg.channel.send(data["url"])
+            })
+        .catch(function(){msg.channel.send(`A loli sé escondeu ${msg.author.username}`)})
+    }
+
+    if (msg.content === "!anime gif"){
+        const endpoints = ["baka", "bite", "blush", "bored", "cry", "cuddle", "dance", "facepalm", "feed", "happy", "highfive", "hug", "kiss", "laugh", "pat", "poke", "pout", "shrug", "slap", "sleep", "smile", "smug", "stare", "think", "thumbsup", "tickle", "wave", "wink"]
+        const numero = Math. floor(Math. random() * endpoints. length);
+        fetch(config[3]["url-base-anime"]+endpoints[numero])
+            .then(response => response.json())
+            .then(data => {
+                msg.channel.send(`Uma loli para ${msg.author.username}`)
+                msg.channel.send(`Anime : ` + data["anime_name"])
+                msg.channel.send(data["url"])
+            })
+        .catch(function(){msg.channel.send(`A loli sé escondeu ${msg.author.username}`)})
     }
 })
 
