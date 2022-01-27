@@ -12,7 +12,7 @@
 </div>
 
 
-<p align="center">Bot para Discord que gera imagens de gatinhos e doguinhos e os envia no chat por comandos, além de curiosidades sobre numeros.</p>
+<p align="center">Bot para Discord que gera imagens de gatinhos e doguinhos e os envia no chat por comandos, além de curiosidades sobre numeros e perfis do github.</p>
 
 <h1 align="center">
   <img alt="Gatinho" title="Gtinho" src="https://cdn2.thecatapi.com/images/c9h.jpg" />
@@ -32,14 +32,11 @@ npm install @vitalets/google-translate-api
 
 
 ## 🔨 Instruções
-- pegue sua usa [API Key] fazendo o cadastro no (https://thedogapi.com/signup), logo depois sua API-KEY chegara no seu e-mail
-- Agora é preciso que você crie um bot no link (https://discordapp.com/developers/applications/me/create) e adicione ao ser servidor e salve o token do Bot que foi gerado para você
-- clone o repositorio (https://github.com/DenilsonRabelo/DiscordBot) e troque respectivamente [SEU-TOKEN-DO-BOT-DISCORD] pelo seu token gerado no passo anterios
-- Troque respectivamente [TOKEN-API-AQUI] pela API-KEY que você recebeu por email
-- Agora basta você instalar as dependencias citadas em [Install]
-- Execute o 'node index.js' para dar inicio a aplicação
-- Agora basta você executar um dos comandos que estarão no topico comandos
-- Agora é só aproveitar.
+
+<br>
+
+* Adicionar as variaveis de ambiente que estão faltando no .env template e ao servidor de hospedagem
+
 
 
 ## ⚙️ Comandos
@@ -51,6 +48,9 @@ npm install @vitalets/google-translate-api
 ```
 ```bash
 !curiosidade
+```
+```bash
+!github usuário
 ```
 ```bash
 !comandos
